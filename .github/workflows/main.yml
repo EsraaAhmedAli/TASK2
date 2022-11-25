@@ -21,8 +21,8 @@ jobs:
 
 
     steps:
-      -name: "TEST"
+      -name:  'github action'
        run: pwd
 
-       -name: "TEST printing   "
-       run: echo Esraa
+       -name:   'test print'
+       run: echo Esraa 
