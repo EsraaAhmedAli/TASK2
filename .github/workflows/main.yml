@@ -8,7 +8,7 @@ on:
 
 
 
- 
+
 
 
 
@@ -21,8 +21,8 @@ jobs:
 
 
     steps:
-      - name:  'github action'
-        run: pwd
+      - name:  'printing folder '
+        run: ls
 
       - name:   'test print'
         run: echo Esraa 
