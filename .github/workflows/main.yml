@@ -1,14 +1,14 @@
 on:
   push:
     branches:
-     - master
+      - master
 
 
 
 
 
 
-
+ 
 
 
 
@@ -21,8 +21,8 @@ jobs:
 
 
     steps:
-      -name:  'github action'
-       run: pwd
+      - name:  'github action'
+        run: pwd
 
-       -name:   'test print'
+      - name:   'test print'
         run: echo Esraa 
