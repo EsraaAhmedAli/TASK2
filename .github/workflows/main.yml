@@ -21,12 +21,6 @@ jobs:
 
 
     steps:
-      - name:  'Before '
-        run: ls
-
-      - name:   'test print'
-        run: echo Esraa 
-
       - uses: actions/checkout@v3
-      - name:   'After'
-        run: ls   
+      - name:   'login to Docker hub'
+        run: docker login --username esraa44 --password dckr_pat_WsdWRqYkfncCQ44N6_8_aMgqHfc   
